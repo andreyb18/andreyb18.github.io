@@ -2,96 +2,152 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: ANDREY BRYUTKIN
+    - name: Title
+      value: PhD Candidate in Applied Mathematics, MIT
+    - name: Location
+      value: Cambridge, MA
+    - name: Email
+      value: <a href="mailto:bryutkin@mit.edu">bryutkin@mit.edu</a>
+    - name: Phone
+      value: +1 (857) 706-9418
+    - name: GitHub
+      value: <a href="https://github.com/andreyb18">andreyb18</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/andrey-bryutkin-03462b194/">LinkedIn</a>
     - name: Languages
-      value: English, German
+      value: English (fluent), German (fluent), Russian (native)
+
+- title: Professional Summary
+  type: list
+  contents:
+    - <i>Applied mathematician and physicist specializing in stochastic processes, time series analysis, Bayesian inference, and uncertainty quantification. ICML-published researcher with expertise in developing UQ methods for large-scale models and dynamical systems. Production-level Python and HPC experience. Seeking quantitative research roles in systematic strategies where rigorous mathematical modeling meets real-world financial data.</i>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Applied Mathematics
+      institution: Massachusetts Institute of Technology (MIT)
+      year: Sep 2023—Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 5.0/5.0
+        - <i>Coursework:</i> Probability, Stochastic Processes, Statistical Inference, Convex & Numerical Optimization, Time Series, Machine Learning, PDEs
+    - title: MASt (Master of Advanced Study — ``Part III'')
+      institution: University of Cambridge
+      year: Oct 2022—Jun 2023
       description:
-        - Description 1.
-        - Description 2.
+        - <i>Concentration:</i> Machine Learning, Probability, Partial Differential Equations
+    - title: BSc in Physics, with Distinction
+      institution: ETH Zurich
+      year: Sep 2019—Sep 2022
+      description:
+        - Grade: 5.78/6.00 (top 5%)
+        - Exchange Semester: University of Toronto (Fall 2021)
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: MIT–IBM Watson AI Lab, <i>Cambridge, MA</i>
+      year: Jun 2025—Aug 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed and evaluated uncertainty-aware metrics for Granite Guardian models, including accuracy rejection and out-of-distribution detection; built scalable evaluation pipelines in Python/JAX/PyTorch
+        - Implemented gradient-based and representation-based UQ scoring methods; automated experiment tracking, data loading, and benchmarking across diverse datasets
+        - Collaborated with research engineers to enhance code reproducibility and performance through vectorization, batched I/O, and profiling optimization
+    - title: Academic Assistant
+      institution: ETH Zurich, <i>Remote / Zurich</i>
+      year: Sep 2022—Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Co-authored lecture materials for ``Waves & Electrodynamics'' course; developed comprehensive problem sets and autograding scripts; streamlined LaTeX production toolchain
+    - title: Software Engineer—Optimization & Data Systems
+      institution: pick8ship, <i>Zurich</i>
+      year: Feb 2022—May 2022
       description:
+        - Architected warehouse optimization components and data interfaces; integrated algorithms with production databases and robotics systems
+        - Enhanced data sampling and preprocessing pipelines, improving stability of downstream optimization processes
+    - title: Research Assistant
+      institution: ETH Zurich Particle Physics Group (CERN), <i>Zurich</i>
+      year: Sep 2020—Dec 2020
+      description:
+        - Designed and deployed lab monitoring and data management systems using InfluxDB; implemented analytics dashboards for experimental workflows
+    - title: Teaching Assistant
+      institution: ETH Zurich, <i>Zurich</i>
+      year: Sep 2020—Jul 2022
+      description:
+        - Led exercise sessions (20–40 students), authored solutions, and graded assignments for C++ (2020/2021), Physics II (2020), Mathematical Methods II (2022)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience & Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Canonical Bayesian Linear System Identification
+      institution: <i>MIT</i>
+      year: 2024—2025
+      description:
+        - Developed gauge-invariant Bayesian identification framework for LTI systems; derived canonicalization under GL($d$) orbits and efficient MCMC/VI estimators
+        - Implementation: JAX/NumPyro/BlackJAX; emphasis on numerical stability, Fisher information structure, and priors near unit roots
+    - title: UQ for Molecular Dynamics Emulation
+      institution: <i>Collaboration with NVIDIA</i>
+      year: 2024—Present
+      description:
+        - Developing uncertainty-aware surrogates for force fields on graphs; adapting transformer operators to physical constraints and OOD shifts
+    - title: UQ for Quantum Field Theory
+      institution: <i>Collaboration with Columbia University</i>
+      year: 2024—Present
+      description:
+        - Implementing transport-map methods and scalable samplers for lattice models; exploiting conditional sparsity and site ordering for linear-time triangular maps
+    - title: 'HAMLET: Graph Transformer Neural Operator for PDEs'
+      institution: <i>University of Cambridge</i>
+      year: 2022—2023
+      description:
+        - Combined diffusion GNNs with Fourier neural operators for inverse problems on graphs; published open-source implementation and benchmarks
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Selected Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <strong>Bryutkin, A.</strong>, Huang, J., Deng, Z., Yang, G., Schönlieb, C.-B., Aviles-Rivero, A. (2024). <i>HAMLET: Graph Transformer Neural Operator for Partial Differential Equations</i>. ICML 2024. <a href="https://arxiv.org/abs/2402.03541">arXiv:2402.03541</a>
+    - <strong>Bryutkin, A.</strong>, Levine, M. E., Urteaga, I., Marzouk, Y. (2025). <i>Canonical Bayesian Linear System Identification</i>. <a href="https://arxiv.org/abs/2507.11535">arXiv:2507.11535</a>
+    - <strong>Bryutkin, A.</strong>, Marzouk, Y. (2025). <i>Neural Triangular Transport Maps for Sampling in Lattice QCD</i>. NeurIPS AI4Science Workshop (to appear).
+    - <strong>Bryutkin, A.</strong>, Li, A., DeOliveira, J., Rundensteiner, E., Gerych, W., Thost, V. <i>Uncertainty-Aware LLM Probing</i> (to appear).
+
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - year: 2023–2024
+      items:
+        - Presidential Fellowship, MIT
+    - year: 2022–2023
+      items:
+        - Part III International Scholarship, University of Cambridge
+        - Christ's College Postgraduate Bursary
+    - year: 2019–2023
+      items:
+        - German Academic Scholarship Foundation
+    - year: 2020–Present
+      items:
+        - Hans-Messer-Stiftung
+    - year: 2021
+      items:
+        - Teaching Assistant Award, ETH Zurich
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: 'Programming:'
+      items:
+        - Python (NumPy, Pandas, JAX, PyTorch, SciPy), C++17, Julia, MATLAB, \LaTeX, SQL
+    - title: 'ML/Statistics:'
+      items:
+        - Bayesian inference, Monte Carlo methods, time series analysis, signal processing, optimization, graphical models
+    - title: 'Systems:'
+      items:
+        - Linux, Git, HPC (vectorization, parallel I/O), experimentation toolchains
+    - title: 'Languages:'
+      items:
+        - English (fluent), German (fluent), Russian (native)
+
+- title: Leadership & Service
+  type: list
+  contents:
+    - Vice President, Mindphair Job Fair (ETH)
+    - Board Member, Maths & Physics Student Association (ETH)
+    - Speaker, German Academic Scholarship Foundation
