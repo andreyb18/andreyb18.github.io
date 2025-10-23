@@ -1,10 +1,10 @@
 I am Andrey, a PhD student in Applied Mathematics at MIT, where I work at the intersection of uncertainty quantification (UQ), dynamical linear systems, and structure-exploiting Bayesian inference.
 
 My current research focuses on:
-	•	UQ for linear dynamical systems and their parameter reduction,
-	•	Developing interpretable inference frameworks,
-	•	Leveraging physical principles, such as equivariance and symmetries,
-	•	Exploring UQ in deep learning, particularly in sampling and physical neural networks.
+* UQ for linear dynamical systems and their parameter reduction,
+* Developing interpretable inference frameworks,
+* Leveraging physical principles, such as equivariance and symmetries,
+* Exploring UQ in deep learning, particularly in sampling and physical neural networks.
 
 I am excited by questions that combine rigorous mathematics with physics-inspired models, and I enjoy designing inference and sampling methods that are not only accurate but also interpretable and structurally meaningful.
 
