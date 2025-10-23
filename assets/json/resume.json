@@ -1,200 +1,343 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "ANDREY BRYUTKIN",
+    "label": "PhD Candidate in Applied Mathematics, MIT",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "bryutkin@mit.edu",
+    "phone": "+1 (857) 706-9418",
+    "url": "",
+    "summary": "Applied mathematician and physicist specializing in stochastic processes, time series analysis, Bayesian inference, and uncertainty quantification. ICML-published researcher with expertise in developing UQ methods for large-scale models and dynamical systems. Production-level Python and HPC experience. Seeking quantitative research roles in systematic strategies where rigorous mathematical modeling meets real-world financial data.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Cambridge",
       "countryCode": "US",
-      "region": "California"
+      "region": "MA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "andreyb18",
+        "url": "https://github.com/andreyb18"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "andrey-bryutkin-03462b194",
+        "url": "https://www.linkedin.com/in/andrey-bryutkin-03462b194/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "MIT–IBM Watson AI Lab",
+      "position": "Research Intern",
+      "url": "",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "summary": "Cambridge, MA",
+      "highlights": [
+        "Designed and evaluated uncertainty-aware metrics for Granite Guardian models, including accuracy rejection and out-of-distribution detection; built scalable evaluation pipelines in Python/JAX/PyTorch",
+        "Implemented gradient-based and representation-based UQ scoring methods; automated experiment tracking, data loading, and benchmarking across diverse datasets",
+        "Collaborated with research engineers to enhance code reproducibility and performance through vectorization, batched I/O, and profiling optimization"
+      ]
+    },
+    {
+      "name": "ETH Zurich",
+      "position": "Academic Assistant",
+      "url": "",
+      "startDate": "2022-09",
+      "endDate": "Present",
+      "summary": "Remote / Zurich",
+      "highlights": [
+        "Co-authored lecture materials for ``Waves & Electrodynamics'' course; developed comprehensive problem sets and autograding scripts; streamlined LaTeX production toolchain"
+      ]
+    },
+    {
+      "name": "pick8ship",
+      "position": "Software Engineer—Optimization & Data Systems",
+      "url": "",
+      "startDate": "2022-02",
+      "endDate": "2022-05",
+      "summary": "Zurich",
+      "highlights": [
+        "Architected warehouse optimization components and data interfaces; integrated algorithms with production databases and robotics systems",
+        "Enhanced data sampling and preprocessing pipelines, improving stability of downstream optimization processes"
+      ]
+    },
+    {
+      "name": "ETH Zurich Particle Physics Group (CERN)",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2020-09",
+      "endDate": "2020-12",
+      "summary": "Zurich",
+      "highlights": [
+        "Designed and deployed lab monitoring and data management systems using InfluxDB; implemented analytics dashboards for experimental workflows"
+      ]
+    },
+    {
+      "name": "ETH Zurich",
+      "position": "Teaching Assistant",
+      "url": "",
+      "startDate": "2020-09",
+      "endDate": "2022-07",
+      "summary": "Zurich",
+      "highlights": [
+        "Led exercise sessions (20–40 students), authored solutions, and graded assignments for C++ (2020/2021), Physics II (2020), Mathematical Methods II (2022)"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
+      "organization": "Mindphair Job Fair (ETH)",
       "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "position": "Vice President",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Maths & Physics Student Association (ETH)",
+      "location": "Zurich, Switzerland",
+      "position": "Board Member",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "German Academic Scholarship Foundation",
+      "location": "",
+      "position": "Speaker",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, MA",
+      "url": "",
+      "area": "Applied Mathematics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2023-09",
+      "endDate": "Present",
+      "score": "5.0/5.0",
+      "courses": [
+        "Probability",
+        "Stochastic Processes",
+        "Statistical Inference",
+        "Convex & Numerical Optimization",
+        "Time Series",
+        "Machine Learning",
+        "PDEs"
+      ]
+    },
+    {
+      "institution": "University of Cambridge",
+      "location": "Cambridge, UK",
+      "url": "",
+      "area": "Machine Learning, Probability, Partial Differential Equations",
+      "studyType": "MASt (Master of Advanced Study — ``Part III'')",
+      "startDate": "2022-10",
+      "endDate": "2023-06",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "url": "",
+      "area": "Physics",
+      "studyType": "BSc in Physics, with Distinction",
+      "startDate": "2019-09",
+      "endDate": "2022-09",
+      "score": "5.78/6.00 (top 5%)",
+      "courses": [
+        "Exchange Semester: University of Toronto (Fall 2021)"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Presidential Fellowship",
+      "date": "2023–2024",
+      "awarder": "MIT",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Part III International Scholarship",
+      "date": "2022–2023",
+      "awarder": "University of Cambridge",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Christ's College Postgraduate Bursary",
+      "date": "2022–2023",
+      "awarder": "Christ's College, Cambridge",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "German Academic Scholarship Foundation",
+      "date": "2019–2023",
+      "awarder": "German Academic Scholarship Foundation",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Hans-Messer-Stiftung",
+      "date": "2020–Present",
+      "awarder": "Hans-Messer-Stiftung",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Teaching Assistant Award",
+      "date": "2021",
+      "awarder": "ETH Zurich",
+      "url": "",
+      "summary": ""
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "HAMLET: Graph Transformer Neural Operator for Partial Differential Equations",
+      "publisher": "ICML 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2402.03541",
+      "summary": "Bryutkin, A., Huang, J., Deng, Z., Yang, G., Schönlieb, C.-B., Aviles-Rivero, A. (2024)."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Canonical Bayesian Linear System Identification",
+      "publisher": "arXiv",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2507.11535",
+      "summary": "Bryutkin, A., Levine, M. E., Urteaga, I., Marzouk, Y. (2025)."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Neural Triangular Transport Maps for Sampling in Lattice QCD",
+      "publisher": "NeurIPS AI4Science Workshop (to appear)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Bryutkin, A., Marzouk, Y. (2025)."
+    },
+    {
+      "name": "Uncertainty-Aware LLM Probing",
+      "publisher": "(to appear)",
+      "releaseDate": "",
+      "url": "",
+      "summary": "Bryutkin, A., Li, A., DeOliveira, J., Rundensteiner, E., Gerych, W., Thost, V."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming",
+      "level": "",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python (NumPy, Pandas, JAX, PyTorch, SciPy)",
+        "C++17",
+        "Julia",
+        "MATLAB",
+        "LaTeX",
+        "SQL"
+      ]
+    },
+    {
+      "name": "ML/Statistics",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Bayesian inference",
+        "Monte Carlo methods",
+        "time series analysis",
+        "signal processing",
+        "optimization",
+        "graphical models"
+      ]
+    },
+    {
+      "name": "Systems",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "HPC (vectorization, parallel I/O)",
+        "experimentation toolchains"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "fluent",
+      "icon": ""
+    },
+    {
+      "language": "Russian",
+      "fluency": "native",
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Canonical Bayesian Linear System Identification",
+      "summary": "Research at MIT.",
+      "highlights": [
+        "Developed gauge-invariant Bayesian identification framework for LTI systems; derived canonicalization under GL($d$) orbits and efficient MCMC/VI estimators",
+        "Implementation: JAX/NumPyro/BlackJAX; emphasis on numerical stability, Fisher information structure, and priors near unit roots"
+      ],
+      "startDate": "2024",
+      "endDate": "2025",
+      "url": ""
+    },
+    {
+      "name": "UQ for Molecular Dynamics Emulation",
+      "summary": "Collaboration with NVIDIA.",
+      "highlights": [
+        "Developing uncertainty-aware surrogates for force fields on graphs; adapting transformer operators to physical constraints and OOD shifts"
+      ],
+      "startDate": "2024",
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "UQ for Quantum Field Theory",
+      "summary": "Collaboration with Columbia University.",
+      "highlights": [
+        "Implementing transport-map methods and scalable samplers for lattice models; exploiting conditional sparsity and site ordering for linear-time triangular maps"
+      ],
+      "startDate": "2024",
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "HAMLET: Graph Transformer Neural Operator for PDEs",
+      "summary": "Research at University of Cambridge.",
+      "highlights": [
+        "Combined diffusion GNNs with Fourier neural operators for inverse problems on graphs; published open-source implementation and benchmarks"
+      ],
+      "startDate": "2022",
+      "endDate": "2023",
+      "url": "https://arxiv.org/abs/2402.03541"
     }
   ]
 }
