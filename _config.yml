@@ -176,7 +176,6 @@ exclude:
   - pages/blog.md
   - pages/books.md
   - pages/blog.md
-  - pages/cv.md
   - pages/dropdown.md
   - pages/profiles.md
   - pages/news.md
